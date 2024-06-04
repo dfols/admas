@@ -1,4 +1,3 @@
 # admas
 
-dylan
 ruta

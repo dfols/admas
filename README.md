@@ -1,18 +1,4 @@
 # admas
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ruta
+dylan
+ruta

@@ -10,4 +10,8 @@ function openMenu(evt, menuTab) {
 	}
 	document.getElementById(menuTab).style.display = "block";
 	evt.currentTarget.className += "active";
+
+	// if you have a "starter" image for the menu
+	// hide it here
+	// document.getElementById("startImage").style.display = "none"
 }

@@ -2,7 +2,7 @@
 
 
   
-  header {
+ /* header {
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
@@ -32,8 +32,42 @@
     margin: 0 5px;
     position: relative;
     transition: all 0.5s ease;
+  }*/
+  
+  .image-container { 
+    display: flex;
+     gap:30rem; 
+     justify-content: center;
+  } 
+      
+  
+  
+  
+    #img2{
+      border-radius: 20px;
+      width: 20rem;
+      height: 10rem;
+      border: 5px solid rgb(231, 231, 18);
+    }
+  
+    #img3{
+      border-radius: 20px;
+      width: 20rem;
+      height: 10rem;
+      border: 5px solid rgb(231, 231, 18);
+  
+    }
+  
+  #homePage{
+    text-align: center;
   }
   
+  #red-text {
+    color: red;
+  }
+  #green-text {
+    color: green;
+  }
 
  
   

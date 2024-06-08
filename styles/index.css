@@ -1,6 +1,6 @@
 
 
-/* General Styles */
+/* General Styles 
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -91,7 +91,7 @@ body {
   
   }
   
-  /* Hero Section */
+  /* Hero Section 
   .hero {
     background: url('path/to/your/hero-image.jpg') no-repeat center center/cover;
     color: #fff;
@@ -113,7 +113,7 @@ body {
     font-size: 1.5rem;
   }
   
-  /* Section Styles */
+  /* Section Styles 
   section {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -131,7 +131,7 @@ body {
     color: #666;
   }
   
-  /* Footer Styles */
+  /* Footer Styles 
   footer {
     background-color: #333;
     color: #fff;
@@ -161,7 +161,7 @@ body {
     color: #f0a500;
   }
   
-  /* Responsive Styles */
+  /* Responsive Styles 
   @media (max-width: 768px) {
     nav ul {
       flex-direction: column;
@@ -183,6 +183,42 @@ body {
     .hero p {
       font-size: 1.2rem;
     }
+  }*/
+
+  
+  
+  
+  .image-container { 
+  display: flex;
+   gap:30rem; 
+   justify-content: center;
+} 
+    
+
+
+
+  #img2{
+    border-radius: 20px;
+    width: 20rem;
+    height: 10rem;
+    border: 5px solid rgb(231, 231, 18);
   }
-  
-  
+
+  #img3{
+    border-radius: 20px;
+    width: 20rem;
+    height: 10rem;
+    border: 5px solid rgb(231, 231, 18);
+
+  }
+
+#homePage{
+  text-align: center;
+}
+
+#red-text {
+  color: red;
+}
+#green-text {
+  color: green;
+}

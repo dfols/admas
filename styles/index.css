@@ -1,14 +1,8 @@
 
 
-/* General Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
+
   
-  header {
+ /* header {
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
@@ -25,23 +19,7 @@ body {
     height: 20px;
   }
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin-left: 2rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    transition: color 0.3s ease;
-  }
+ 
   
   nav ul li a:hover {
     color: #f0a500;
@@ -54,84 +32,50 @@ body {
     margin: 0 5px;
     position: relative;
     transition: all 0.5s ease;
-  }
+  }*/
   
-  #nav-110 a.link-110::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #00ff00;
-    visibility: hidden;
-    clip: rect(0, 0, 0, 0);
-    transition: all 0.5s ease;
-  }
-  
-  #nav-110 a.link-110:hover {
-    color: #00ff00;
-    animation: neonFlicker 1.5s infinite alternate;
-  }
-  
-  #nav-110 a.link-110:hover::before {
-    visibility: visible;
-    clip: rect(0, 900px, 0, 0);
-    animation: neonFlicker 1.5s infinite alternate;
-  }
-  
-  @keyframes neonFlicker {
-    0%, 100% {
-      text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
-    }
-    50% {
-      text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
-    }
-  }
-  
-  }
-  
-  /* Hero Section */
-  .hero {
-    background: url('path/to/your/hero-image.jpg') no-repeat center center/cover;
-    color: #fff;
-    height: 60vh;
+  .image-container { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+     gap:30rem; 
+     justify-content: center;
+  } 
+      
+  
+  
+  
+    #img2{
+      border-radius: 20px;
+      width: 20rem;
+      height: 10rem;
+      border: 5px solid rgb(231, 231, 18);
+    }
+  
+    #img3{
+      border-radius: 20px;
+      width: 20rem;
+      height: 10rem;
+      border: 5px solid rgb(231, 231, 18);
+  
+    }
+  
+  #homePage{
     text-align: center;
-    padding: 0 2rem;
   }
   
-  .hero h1 {
-    font-size: 3rem;
-    margin: 0;
+  #red-text {
+    color: red;
   }
-  
-  .hero p {
-    font-size: 1.5rem;
+  #green-text {
+    color: green;
   }
-  
-  /* Section Styles */
-  section {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+
+  #contact{
+    color: white
   }
+
+ 
   
-  section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  
-  section p {
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
-  /* Footer Styles */
+  /* Footer Styles 
   footer {
     background-color: #333;
     color: #fff;
@@ -139,50 +83,7 @@ body {
     padding: 2rem 0;
   }
   
-  footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
   
-  footer ul li {
-    margin: 0 1rem;
-  }
-  
-  footer ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  footer ul li a:hover {
-    color: #f0a500;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-    }
-  
-    nav ul li {
-      margin: 1rem 0;
-    }
-  
-    .hero {
-      height: 50vh;
-      padding: 0 1rem;
-    }
-  
-    .hero h1 {
-      font-size: 2.5rem;
-    }
-  
-    .hero p {
-      font-size: 1.2rem;
-    }
   }
   
   

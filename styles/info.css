@@ -1,0 +1,42 @@
+#info-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 10;
+}
+.info-content {
+  flex: 2;
+  min-width: 300px;
+}
+#info-container p,
+#info-container address {
+  flex: 1 1 100%;
+}
+#hours {
+  flex: 1 1 300px;
+}
+#hours ul {
+  list-style: none;
+  padding: 10;
+}
+
+#location {
+  flex: 1 1 300px;
+  max-width: 100%;
+  height: auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  margin-top: 20px;
+}
+#social {
+  display: flexbox;
+  justify-content: center;
+  gap: 10px;
+}

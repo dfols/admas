@@ -1,12 +1,9 @@
-# admas
+# Admas Restaurant
 
-dylan
-
-Dee
-
-
-tianna
-
-ruta
-
-Mesfin
+## Team Members
+- `Dylan`
+- `Dee`
+- `Tianna`
+- `Ruta`
+- `Mesfin`
+- `Netsi`  

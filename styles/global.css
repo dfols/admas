@@ -150,4 +150,42 @@ nav ul li a:hover {
         color: #f0a500;
     }
 
+
+
+#img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#pageTitle {
+    text-align: center;
+    font-size: 45px;
+}
+
+#red-text {
+    color: red;
+}
+
+#green-text {
+    color: green;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#pageTitle {
+    text-align: center;
+    font-size: 45px;
+}
+
+#red-text {
+    color: red;
+}
+
+#green-text {
+    color: green;
 }

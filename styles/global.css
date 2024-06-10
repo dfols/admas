@@ -118,7 +118,7 @@ nav ul li a:hover {
         clip: rect(0, 900px, 0, 0);
         animation: neonFlicker 1.5s infinite alternate;
     }
-
+}
 
     /* Footer Styles */
     footer {

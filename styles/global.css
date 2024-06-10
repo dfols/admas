@@ -119,8 +119,8 @@ footer ul li a:hover {
 
 
 #img1 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
@@ -137,21 +137,3 @@ footer ul li a:hover {
     color: green;
 }
 
-#img1 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-#pageTitle {
-    text-align: center;
-    font-size: 45px;
-}
-
-#red-text {
-    color: red;
-}
-
-#green-text {
-    color: green;
-}

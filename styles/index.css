@@ -60,8 +60,17 @@
   
   #homePage{
     text-align: center;
+    font-size: 45px;
+  }
+
+  #welcome{
+    padding: 15rem;
+    font-size: 25px;
   }
   
+
+
+
   #red-text {
     color: red;
   }

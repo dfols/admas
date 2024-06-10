@@ -9,9 +9,7 @@ function openMenu(evt, menuTab) {
 		tablinks[i].className = tablinks[i].className.replace("active", '');
 	}
 	document.getElementById(menuTab).style.display = "block";
-	evt.currentTarget.className += "active";
+	evt.currentTarget.classList.toggle("active")
 
-	// if you have a "starter" image for the menu
-	// hide it here
-	// document.getElementById("startImage").style.display = "none"
+
 }

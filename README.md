@@ -6,4 +6,8 @@
 - `Tianna`
 - `Ruta`
 - `Mesfin`
-- `Netsi`  
+- `Netsi`
+- `Semhar`
+- `Mamadou`
+- `Betelhem`
+- `Yeneneh`

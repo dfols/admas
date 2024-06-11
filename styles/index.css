@@ -40,13 +40,7 @@
      justify-content: center;
   } 
 
-     
-  #img1{
-    width:100px;
-    height:100px;
-    border-radius:50%;
-  }
-  
+    
   
   
     #img2{
@@ -64,10 +58,7 @@
   
     }
   
-  #homePage{
-    text-align: center;
-    font-size: 45px;
-  }
+
 
   #welcome{
     padding: 15rem;
@@ -77,17 +68,7 @@
 
 
 
-  #red-text {
-    color: red;
-  }
-  #green-text {
-    color: green;
-  }
-
-  #contact{
-    color: white
-  }
-
+  
  
   
   /* Footer Styles 
